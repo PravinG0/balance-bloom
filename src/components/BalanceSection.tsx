@@ -148,8 +148,7 @@ export function BalanceSection() {
                 </li>
               );
             })}
-          </ul>
-        </div>
+        </ul>
       </div>
     </section>
   );
