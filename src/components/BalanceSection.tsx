@@ -110,8 +110,9 @@ export function BalanceSection() {
             Our hormone therapy programs are customized to your unique needs, ensuring you feel your
             best today and for years to come. We don&rsquo;t believe in one-size-fits-all treatments.
           </p>
+        </div>
 
-          <ul className="mt-12 order-3">
+        <ul className="order-3 lg:col-start-2 lg:row-start-2 lg:-mt-4">
             {features.map((feature, index) => {
               const Icon = feature.icon;
               return (
