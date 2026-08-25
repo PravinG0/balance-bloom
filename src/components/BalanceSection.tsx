@@ -82,11 +82,14 @@ export function BalanceSection() {
       />
 
       <div className="relative mx-auto grid w-full max-w-6xl items-center gap-16 px-6 lg:grid-cols-2 lg:gap-20">
-        <div className="order-2 lg:order-1 reveal" style={{ "--reveal-delay": "80ms" } as React.CSSProperties}>
+        <div
+          className="order-2 reveal lg:col-start-1 lg:row-span-2 lg:row-start-1 lg:self-center"
+          style={{ "--reveal-delay": "80ms" } as React.CSSProperties}
+        >
           <BalanceVisual />
         </div>
 
-        <div className="order-1 lg:order-2">
+        <div className="order-1 lg:col-start-2 lg:row-start-1">
           <p
             className="reveal text-xs font-semibold tracking-[0.28em] text-primary uppercase"
             style={{ "--reveal-delay": "0ms" } as React.CSSProperties}
